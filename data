@@ -1,0 +1,22 @@
+##Data
+
+Raw market data is not included in this repository due to data provider licence restrictions.
+
+## Market data (5 November 2025, trade date)
+
+| File | Contents | Source |
+|---|---|---|
+| `MarketData202526.xlsx` | EUR IRS par rates, EURIBOR deposits, caplet vol surface | Bloomberg Terminal |
+| `Shifted_Black_vol_surface.xlsx` | VCAP3A EUR displaced Black vol surface (δ = 3%), 16 expiries × 14 strikes | ICAP via Bloomberg |
+| `Interp_term_structure.xlsx` | Bootstrapped daily zero-rate grid (output of Q3) | Computed |
+| `curve_quotes.xlsx` | EUR deposit and IRS input quotes | Bloomberg Terminal |
+| `Unicredit5Y_CDS_Data.csv` | UniCredit 5Y CDS spread daily history, Dec 2015–Nov 2025 | Investing.com |
+| `Holidays.xlsx` | TARGET calendar holidays | Public |
+
+## EURIBOR fixings
+
+Historical 3-month EURIBOR fixings (EUR003M) used for coupon history (Q2) sourced from Suomen Pankki (Bank of Finland): https://www.suomenpankki.fi/en/Statistics/interest-rates/
+
+## EuroTLX market price
+
+Clean price of 100.81% (EUR 1,008.10 per EUR 1,000 nominal) as of 5 November 2025, sourced from Borsa Italiana EuroTLX platform.
